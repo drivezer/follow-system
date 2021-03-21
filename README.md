@@ -8,3 +8,7 @@
 7. รัน php artisan serve เพื่อเปิดงาน
 
 https://github.com/overtrue/laravel-follow
+
+generate users
+php artisan tinker
+>>> User::factory()->count(3)->create()
